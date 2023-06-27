@@ -62,3 +62,48 @@
     width: 300px;
     height: 300px;
   }
+
+  @media only screen and (max-width: 600px) {
+    .cart {
+      background-size: contain;
+      padding: 10px;
+      font-size: 16px;
+    }
+  
+    .cartItem {
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+      align-items: flex-start;
+      margin: 15px 0;
+    }
+  
+    .cartItem img {
+      width: 100px;
+      height: 100px;
+      margin-right: 10px;
+    }
+  
+    .cartItem .description {
+      width: 100%;
+      font-size: 18px;
+      margin-top: 10px;
+    }
+  
+    .countHandler input {
+      width: 30px;
+    }
+  
+    .checkout button {
+      width: 120px;
+      height: 40px;
+      font-size: 14px;
+      margin: 5px;
+    }
+  
+    img {
+      width: 200px;
+      height: 200px;
+    }
+  }
+  
